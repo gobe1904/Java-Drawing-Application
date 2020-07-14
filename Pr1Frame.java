@@ -18,9 +18,9 @@ public class Pr1Frame
 		frame.setLocationRelativeTo(null);
 		frame.isAutoRequestFocus();
 		
-		Pr1Draw zeichnung = new Pr1Draw(geo, breite, hoehe);
-		zeichnung.setBounds(0,0,breite,hoehe);
-		zeichnung.setVisible(true);
-		frame.add(zeichnung);
+		Pr1Draw drawing = new Pr1Draw(geo, breite, hoehe);
+		drawing.setBounds(0,0,breite,hoehe);
+		drawing.setVisible(true);
+		frame.add(drawing);
 	}
 }

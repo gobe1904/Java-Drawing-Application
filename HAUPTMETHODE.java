@@ -43,7 +43,8 @@ public class HAUPTMETHODE
 			//Wenn die Eingabe "ende" lautet, breche die Schleife ab und springe zum Ende des Systems.			
 			if (scannerStringArray[0].equals("ende")) 
 			{
-				System.out.println("Ende dscannerStringArray Systems");
+							
+				System.out.println("Ende des Systems");
 				Pr1Frame.paint(geo, 1000, 1000);
 				break;
 			}
